@@ -46,8 +46,12 @@ body {
     text-align: center;
 }
 
-#color-container {
+#color-container,
+#font-container,
+#text-container {
     width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .color-panel {
@@ -74,10 +78,6 @@ body {
 
 .color3 {
     background-color: black;
-}
-
-#font-container {
-    width: 100%;
 }
 
 .font-panel {
